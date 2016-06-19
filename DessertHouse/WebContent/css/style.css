@@ -21,7 +21,7 @@ color:#666;
 /**设置页面中链接的样式**/
 a{
 	text-decoration: none;
-	color: #B1191A;
+	color: #666;
 }
 
 a:hover{
@@ -51,7 +51,7 @@ table.altrowstable {
 }
 /**表格中的某一行被选定后的颜色**/
 .selectrowcolor{
-	background-color:#ff9900;
+	background-color:#C81623;
 }
 
 /**用于翻页,使用方法详见demo.html**/
@@ -69,8 +69,8 @@ a.page,a.prevPage,a.nextPage,a.endPage{
 	text-align: center;
 }
 a.page:hover,a.prevPage:hover,a.nextPage:hover,a.endPage:hover,a.pageActive{
-	background-color: #ff9900;
-	border-color: #ff9900;
+	background-color: #C81623;
+	border-color: #C81623;
 }
 input#inputPages{
 	width: 50px;
@@ -92,9 +92,11 @@ input{
 	border:1px solid #D2D9DC;
 	height: 25px;
 	padding:0 5px;
+	outline: none;
 }
 input:FOCUS{
-	border: 1px solid #b7d4ea;
+	border: 1px solid #C81623;
+
 }
 
 /**提供几种input的样式**/
@@ -129,6 +131,12 @@ input:FOCUS{
 	width: 100%;
 	margin:0;
 	border-top:1px solid rgba(151, 151, 151, 0.6);
+}
+
+.vertical-seperator{
+	height: 100%;
+	margin: 0;
+	border-right: 1px solid rgba(151, 151, 151, 0.6);
 }
 
 .box{
