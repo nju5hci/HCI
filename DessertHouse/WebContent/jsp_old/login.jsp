@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>登录-DessertHouse</title>
+	<title>一亩e田</title>
 		<meta charset="utf-8">
         <link href="../css/style.css" rel="stylesheet" type="text/css" media="all"/>
 		<link href="../css/login-register.css" rel='stylesheet' type='text/css' />

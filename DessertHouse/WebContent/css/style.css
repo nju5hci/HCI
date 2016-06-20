@@ -203,36 +203,45 @@ input:FOCUS{
 
 /**以下为登陆页面的css**/
 .login-form-div{
-	margin:0px auto;
+	position:absolute;
+	
+	margin-left:65%;
+	margin-top:100px;
 	padding:20px;
-	width: 450px;
-	height: 520px;
+	width: 300px;
+	height: 350px;
+	background-color:white
 }
 
 .login-form-header{
-	height: 50px;
-	line-height: 50px;
-	font-size: 25px;
+	height: 30px;
+	
+	font-size: 20px;
 	padding-left: 20px;
+	padding-bottom:4px;
 }
 
 .login-info-input{
-	margin:55px 20px;
+	margin:30px 20px;
 }
 
 .login-info-input .label{
 	margin-left: 30px;
 }
-
+.login-info-input .alink{
+	font-size:12px;
+}
 .login-info-input .input-long{
 	margin-left: 20px;
 }
 
 .login-info-input .input-submit{
-	width: 300px;
+	width:260px;
 	height: 35px;
 	font-size: 18px;
-	margin: 0 12.5%;
+	margin-top:20px
+	
+	
 }
 /**---------------------------------------------------**/
 
@@ -250,6 +259,7 @@ input:FOCUS{
 	width: 280px;
 	margin: 0 auto;
 	text-align: center;
+	font-size:13px;
 	color: #777;
 }
 /**---------------------------------------------------**/
