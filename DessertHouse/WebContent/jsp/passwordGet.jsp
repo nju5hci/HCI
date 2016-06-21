@@ -4,28 +4,64 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>个人注册</title>
+<title>重置密码</title>
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 	<link rel="stylesheet" type="text/css" href="../css/register.css">
 	<link rel="stylesheet" type="text/css" href="../css/test.css">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/process.css">
+	<link rel="stylesheet" type="text/css" href="../css/stepflex.css">
 	<script type="text/javascript"src="../js/script.js"></script>
 	<script type="text/javascript" src="../js/jquery.js"></script>
 </head>
-
+<style type="text/css">
+.have-account a{
+    font-size:15px;
+}
+.have-account a:hover{
+    color: #C81623;
+}
+</style>
 <body>
-
-
+<div class="wrapper">
 <div class="header1">
 <div class="logo-con w clearfix">
 <a href="index.html" class="logo"><img src="../images/mu3.png" alt="" /></a>
-<div class="logo-title">欢迎注册</div>
+<div class="logo-title" style="margin-left:70px">重置登录密码</div>
 <div class="have-account">
-已有账号&nbsp<a href="login.jsp">请登录</a>
+<a href="login.jsp">登录</a>-<a href="register.jsp">注册</a>
 </div>
 </div>
 </div>
-<div class="wrapper" style="margin-top:50px;">
+
+
 <div class="main_tape">
+<div class="state_show">
+
+ 
+                <div id="sflex04" class="stepflex ">
+                    <dl class="first doing">
+                        <dt class="s-num">1</dt>
+                        <dd class="s-text">填写账户名<s></s><b></b></dd>
+                        <dd></dd>
+                    </dl>
+                    <dl class="normal">
+                        <dt class="s-num">2</dt>
+                        <dd class="s-text">验证身份<s></s><b></b></dd>
+             
+                    </dl>
+                    <dl class="normal">
+                        <dt class="s-num">3</dt>
+                        <dd class="s-text">设置新密码<s></s><b></b></dd>
+                    </dl>
+                    <dl class="last">
+                        <dt class="s-num">&nbsp;</dt>
+                        <dd class="s-text">完成<s></s><b></b></dd>
+                    </dl>
+               
+</div>
+</div>
+</div>
 <div class="reg-form fl">
             <form action="/DessertHouse/register" method="post">
           
