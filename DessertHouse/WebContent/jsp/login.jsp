@@ -21,7 +21,7 @@
 <div>
 <div id="log">
 
- <a href="index.html"><img src="../images/mu3.png" alt="" /></a>
+ <a href="../html/index.html"><img src="../images/mu3.png" alt="" /></a>
 					
 </div>
 </div>
