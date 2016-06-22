@@ -5,8 +5,8 @@
 <head>
 	<title>注册-一亩e田</title>
 		<meta charset="utf-8">
-        <link href="../css/style.css" rel="stylesheet" type="text/css" media="all"/>
-		<link href="../css/login-register.css" rel='stylesheet' type='text/css' />
+        <link href="../css_old/style.css" rel="stylesheet" type="text/css" media="all"/>
+		<link href="../css_old/login-register.css" rel='stylesheet' type='text/css' />
 		<link href='../images/logo.png' rel="shortcut icon" type="image/x-icon" media="screen"/>
 </head>
 <body>
