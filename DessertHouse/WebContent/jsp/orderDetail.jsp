@@ -30,29 +30,24 @@
 <p align="center" style="font-size:12px">订单号:xxxx</p>
 
 <div class="right">
-<div class="tap1"></div>
+
 <div class="process">
+
 <!--进度条-->
-<table cellpadding="0" cellspacing="0" align="center" width="100%">  
+<table cellpadding="0" cellspacing="0" align="center" width="100%">    
         <tr>  
-            <td align="center" height="30">提交订单</td>  
-            <td align="center">付款成功</td>  
-            <td align="center">商品出库</td>   
-            <td align="center">等待收货</td>  
-           <td align="center">完成</td>  
-        </tr>  
-        <tr>  
-            <td class="step-no1"><div class="n1"></div></td>  
-            <td class="step-no2"><div class="n2"></div></td>  
-            <td class="step-no3"><div class="n3"></div></td>
-            <td class="step-no4"><div class="n4"></div></td>
-            <td class="step-no5"><div class="n5"></div></td>  
+        <td colspan="6">
+           <div class="show_state type1" id="process_show">
+    
+         </div>
         </tr>  
          
     </table>  
 
-</div>
 
+ 
+
+</div>
 
 
 </div>
@@ -75,7 +70,7 @@
 </div>
 
 </div>
-<div class="order_class">
+<div class="list_class">
 <table class="table_title" >
   <colgroup>
   <col class="bought-table_col1">
@@ -127,15 +122,106 @@
         <span>金额227</span>
         </div>
       </td>
-       <td>   
-       
-        <div class="goog-buy" style="text-align:center;border:1px solid white;">
+       <td>        
+        <div class="goog-buy" style="text-align:center;border:2px solid white;">
         <a href="#">立即购买</a>
         </div>
       </td>
    </tr>
+ <!-- - -->
+ <tr class="th-notitle">
+      <td >
+         <div class="good">
+         <div class="good-item">
+           <a href="#"><img src="#" title="" width="60px" height="60px"></a>
+         </div>
+         <div class="good-mes">
+            <a href="#">长裤xxxxxxxx</a>
+         </div>
+         </div>        
+      </td>
+      <td>
+         <div class="good-price">
+         312222
+         </div>
+      </td>
+       <td>
+         <div class="good-number">
+         87
+         </div>
+      </td>
+        <td>
+        <div class="good-pay">
+        
+        <span>X1</span> 
+       
+         </div>
+      </td>
+       <td >
+        <div class="good-state">
+        <span>金额227</span>
+        </div>
+      </td>
+       <td>        
+        <div class="goog-buy" style="text-align:center;border:2px solid white;">
+        <a href="#">立即购买</a>
+        </div>
+      </td>
+   </tr>
+   <tr class="th-notitle">
+      <td >
+         <div class="good">
+         <div class="good-item">
+           <a href="#"><img src="#" title="" width="60px" height="60px"></a>
+         </div>
+         <div class="good-mes">
+            <a href="#">长裤xxxxxxxx</a>
+         </div>
+         </div>        
+      </td>
+      <td>
+         <div class="good-price">
+         312222
+         </div>
+      </td>
+       <td>
+         <div class="good-number">
+         87
+         </div>
+      </td>
+        <td>
+        <div class="good-pay">
+        
+        <span>X1</span> 
+       
+         </div>
+      </td>
+       <td >
+        <div class="good-state">
+        <span>金额227</span>
+        </div>
+      </td>
+       <td>        
+        <div class="goog-buy" style="text-align:center;border:2px solid white;">
+        <a href="#">立即购买</a>
+        </div>
+      </td>
+   </tr>
+   <!--  -->
   </table>
+  <div class="all_pay">
+
+<div class="left">
+   <p align="center">xxxx</p>
+   <p align="center"> xxx</p>
 </div>
+<div class="right">
+   <p>商品总额:</p>
+   <p>折&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;扣:</p>
+</div>   
+</div>
+</div>
+
 </div>
 </div>
 <div class="footer">
