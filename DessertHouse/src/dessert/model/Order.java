@@ -16,36 +16,22 @@ public class Order implements Serializable{
 	private int totalPrice;//总额
 	private int  orderState;//状态
 	private  String orderDate;//日期
-	private 	List<OrderList> orderLists;//详细订单
+
 	public Order(){
 		
 	}
 
 
 
-	public Order(int orderId, int memberId, int totalPrice, int orderState, String orderDate,
-			List<OrderList> orderLists) {
+	public Order(int orderId, int memberId, int totalPrice, int orderState, String orderDate) {
 	
 		this.orderId = orderId;
 		this.memberId = memberId;
 		this.totalPrice = totalPrice;
 		this.orderState = orderState;
 		this.orderDate = orderDate;
-		this.orderLists = orderLists;
+
 	}
-
-
-
-	public List<OrderList> getOrderLists() {
-		return orderLists;
-	}
-
-
-
-	public void setOrderLists(List<OrderList> orderLists) {
-		this.orderLists = orderLists;
-	}
-
 
 
 	public String getOrderDate() {
