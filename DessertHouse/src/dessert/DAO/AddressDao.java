@@ -18,11 +18,7 @@ public interface AddressDao {
 		//通过id得到
 		Address getAddressById(int addressId);
 		
-		
-		
-		
-		
-		
+	
 		//通过memberid得到
 		List<Address> getAddressByMemberId(int mid);
 		
