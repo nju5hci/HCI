@@ -145,12 +145,14 @@ input:FOCUS{
 }
 
 .light-red-seperator{
+
 	width: 100%;
 	margin:3px 0;
 	border-top:1px solid rgba(200, 22, 35, 0.6);
 }
 
 .vertical-seperator{
+	display: inline-block;
 	height: 100%;
 	margin: 0;
 	border-right: 1px solid rgba(151, 151, 151, 0.6);
@@ -499,4 +501,123 @@ input:FOCUS{
 }
 
 /**---------------------------------------------------**/
-
+.wapper-detail-middle{
+	width: 100%;
+	height: 450px;
+	margin-top: 20px;
+}
+.commodity-detail-photo{
+	width: 45%;
+	margin-top: 10px;
+}
+.commodity-detail{
+	width: 50%;
+	margin-top: 20px;
+}
+.commodity-detail-title{
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+.commodity-detail-item{
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.commodity-detail-label{
+	font-size: 13px;
+	margin-right: 5px;
+}
+.commodity-detail-price{
+	font-size: 20px;
+	color: #B1191A;
+}
+.commodity-detail-number{
+	color: #B1191A;
+	font-weight: bold;
+}
+.commodity-detail-sale{
+	height: 18px;
+	width:95%;
+	line-height: 18px; 
+	padding: 10px;
+	border-top: 1px solid rgba(151, 151, 151, 0.6);
+	border-bottom: 1px solid rgba(151, 151, 151, 0.6);
+}
+.commodity-detail-sale :not(.vertical-seperator){
+	width: 31%;
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+	vertical-align: top;
+}
+.wapper-detail-middle .input-submit{
+	width: 45%;
+	line-height: 35px;
+	height: 35px;
+	text-align: center;
+}
+.commodity-number-selector{
+	height: 30px;
+	line-height: 30px;
+	margin: 20px 0 40px 0;
+}
+.commodity-number-selector .input-small{
+	margin-left: 5px;
+	margin-right: 10px;
+}
+/**---------------------------------------------------**/
+.wapper-detail-bottom{
+	width: 100%;
+}
+.wapper-detail-bottom-header{
+	background-color: #f5f5f5;
+	height: 40px;
+	width: 100%;
+	margin-top: -2px;
+}
+.wapper-detail-content{
+	min-height: 400px;
+}
+.detail-header-option-now {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.detail-header-option {
+    cursor: pointer;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    width: 80px;
+}
+.wapper-detail-content{
+	border-left:1px solid #ebebeb;
+	border-right:1px solid #ebebeb;
+}
+.wapper-detail-content img{
+	margin:10px;
+	align-items: center;
+}
+.comment-list{
+}
+.comment-item{
+	width: 100%;
+	height: 90px;
+	border-bottom:1px solid #ebebeb;
+}
+.comment-content{
+	margin:10px;
+	height: 50px;
+	color: #111;
+}
+.comment-time{
+	height: 10px;
+	margin-left: 10px;
+}
+.comment-user{
+	margin-right: 30px;
+	margin-top: 50%;
+}
