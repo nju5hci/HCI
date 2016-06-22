@@ -22,6 +22,7 @@ color:#666;
 a{
 	text-decoration: none;
 	color: #666;
+	cursor: pointer;
 }
 
 a:hover{
@@ -71,6 +72,7 @@ a.page,a.prevPage,a.nextPage,a.endPage{
 a.page:hover,a.prevPage:hover,a.nextPage:hover,a.endPage:hover,a.pageActive{
 	background-color: #C81623;
 	border-color: #C81623;
+	color: #fff;
 }
 input#inputPages{
 	width: 50px;
@@ -79,15 +81,15 @@ input#inputPages{
 /**翻页的div大小可以再修改**/
 div#bottomList{
 	height: 80px;
-	width: 100%;
+	margin-top: 20px;
 }
 div#skipPages{
 	margin-left: 25px;
-	margin-top: 20px;
+	margin-top: 40px;
 	display: inline-block;
 }
 
-/**设置页面中的输入框的基本样式，高度已经确定，宽度可以自己调**/
+/**设置页面中的输入框的基本样式**/
 input{
 	border:1px solid #D2D9DC;
 	height: 25px;
@@ -96,7 +98,6 @@ input{
 }
 input:FOCUS{
 	border: 1px solid #C81623;
-
 }
 
 /**提供几种input的样式**/
@@ -119,6 +120,10 @@ input:FOCUS{
 	opacity: 0.8;
 	cursor: pointer;
 }
+.input-small{
+	width: 50px;
+	height: 20px;
+}
 
 /****/
 /**工具div**/
@@ -131,6 +136,18 @@ input:FOCUS{
 	width: 100%;
 	margin:0;
 	border-top:1px solid rgba(151, 151, 151, 0.6);
+}
+
+.red-seperator{
+	width: 100%;
+	margin:3px 0;
+	border-top:2px solid rgba(200, 22, 35, 0.6);
+}
+
+.light-red-seperator{
+	width: 100%;
+	margin:3px 0;
+	border-top:1px solid rgba(200, 22, 35, 0.6);
 }
 
 .vertical-seperator{
@@ -146,7 +163,7 @@ input:FOCUS{
 
 /**页面除了最上方的标题栏之外的部分**/
 .wapper{
-	margin:90px auto 20px auto;
+	margin:70px auto 20px auto;
 	min-height:500px;
 	width: 1000px;
 }
@@ -170,7 +187,7 @@ input:FOCUS{
 
 /**标题栏**/
 .header{
-	position:fixed;
+	position:absolute;
 	left:0px;
 	top:0px;
 	z-index:10;
@@ -243,7 +260,8 @@ input:FOCUS{
 
 /**页面的足部**/
 .footer{
-	margin-top: 60px;
+	margin-top: 40px;
+	height: 80px;
 }
 
 .footer-info{
@@ -253,3 +271,223 @@ input:FOCUS{
 	color: #777;
 }
 /**---------------------------------------------------**/
+
+/**wapper的title部分，包括一个可以跳转到首页的标题和搜索框的表单**/
+.wapper-header{
+	height: 80px;
+	line-height: 80px;
+	margin-top: -30px;
+}
+
+.wapper-header input{
+ height: 30px;
+ font-size: 14px;
+}
+
+.wapper-header a.title{
+	color: #C81623;
+	font-size: 34px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.wapper-header .float-right{
+	height: 75px;
+	margin-right: 30px;
+	margin-top: 5px;
+}
+/**---------------------------------------------------**/
+
+/**首页选择类别的页面**/
+.wapper-middle{
+	height: 600px;
+	width: 100%;
+	margin: 20px auto 0px auto;
+}
+.type-selector{
+	width: 16%;
+	height: 600px;
+	margin: 0;
+	border-radius: 3px;
+}
+.slider{
+	width: 80%;
+	margin: 0;
+}
+.type-selector-title{
+	height: 54px;
+	color: #fff;
+	background-color: #B1191A;
+	line-height: 54px;
+	width: 100%;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 4px;
+}
+.type-selector-list{
+	width: 100%;
+}
+.type-selector-row{
+	padding: 5px;
+	background-color: #C81623;
+	height: 44px;
+	line-height: 40px;
+	width: 100%;
+}
+.type-selector-row a{
+	color: #fff;
+	padding: 0 5px;
+}
+.type-selector-row a:hover{
+	text-decoration: underline;
+}
+.type-selector-row:hover{
+	background-color: #B1191A;
+}
+/**---------------------------------------------------**/
+
+/**商品列表**/
+.wapper-type-list{
+	margin-top: 40px;
+}
+.type-item{
+	height: 360px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.type-title .float-left{
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 15px;
+	color: #000;
+}
+.type-title .float-right{
+	margin-top: 11px;
+}
+.type-commodity-list{
+	padding: 0 15px;
+	height: 270px;
+}
+.wapper-type-list .type-commodity{
+	margin-top: 10px;
+	margin-left: 2%;
+}
+.type-commodity-list :first-child{
+	margin-left: 0px;
+}
+
+/**商品样式**/
+.type-commodity-list .box{
+	box-shadow: 0px 0px 1px 0px rgba(200, 22, 35, 0.6);
+}
+.type-commodity-list :hover{
+	background-color: #f5f5f5;
+}
+.type-commodity{
+	cursor: pointer;
+	padding: 10px 15px 10px 15px;
+	height: 100%;
+	width: 20%;
+	display: inline-block;
+}
+.commodity-photo{
+	width: 92%;
+	height: 66%;
+	padding: 10px 5%;
+}
+.commodity-name{
+	overflow: hidden;
+	margin: 5px 0 10px 0;
+}
+.commodity-price{
+	font-weight: bold;
+	font-size: 19px;
+	text-align: left;
+}
+.add-to-chart:hover{
+	color: #B1191A;
+}
+/**---------------------------------------------------**/
+
+/**类别商品样式**/
+.category{
+	margin-top: 10px;
+	width: 20%;
+	height: 400px;
+	box-shadow: 0px 0px 1px 0px rgba(200, 22, 35, 0.6);
+}
+.category-header{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	background-color: #f2f2f2;
+	font-size: 18px;
+	font-weight: bold;
+}
+.category-list-div{
+	height: 360px;
+	width: 90%;
+}
+.category-list{
+	list-style: none;
+	padding:10px;
+	width: 100%;
+	margin:0px;
+}
+.category-item{
+	height: 28px;
+}
+.commodity-content{
+	width: 78%;
+}
+/**---------------------------------------------------**/
+
+.commodity-filter{
+	width: 100%;
+	margin-top: 10px;
+	background-color: #f5f5f5;
+	height: 40px;
+}
+.commodity-rank:not(:last-child){	
+	width: 60px;
+}
+.commodity-rank:last-child{
+	padding-left: 5px;
+}
+.commodity-rank{
+	cursor: pointer;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #ebebeb;
+}
+.commodity-rank-now{
+	background-color: #fff;
+	border-bottom:1px solid #fff;
+}
+.confirm-range:hover{	
+	color: #B1191A;
+}
+
+
+/**---------------------------------------------------**/
+.commodity-list{
+	margin-top: 10px;
+	width: 100%;
+	max-height: 2000px;
+}
+.commodity-row{
+	margin-top: 10px;
+	width: 100%;
+}
+.commodity-row .box{
+	width: 19%;
+	margin-left: 1%;
+	box-shadow: 0px 0px 1px 0px rgba(200, 22, 35, 0.6);
+}
+.commodity-row .box:hover{
+	background-color: #f5f5f5;
+}
+
+/**---------------------------------------------------**/
+
